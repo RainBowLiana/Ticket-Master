@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Course: 22F-CST2335-021
+    Professor: Adewole Adewumi
+    Author: Kamelia Pezeshki
+    student# 040844200
+    File name: toolbar_menu.xml
+    Date: 2022-12-06
+    Final Project-->
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/help"
+        android:icon="@drawable/question"
+        android:orderInCategory="1"
+        android:title="@string/help"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/tool_home"
+        android:icon="@drawable/home"
+        android:orderInCategory="1"
+        android:title="@string/toolbarHome"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/tool_saved"
+        android:icon="@drawable/heart"
+        android:orderInCategory="2"
+        android:title="@string/toolbarSaved"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/tool_lastSearched"
+        android:icon="@drawable/search"
+        android:orderInCategory="3"
+        android:title="@string/toolbarSearched"
+        app:showAsAction="never" />
+
+</menu>

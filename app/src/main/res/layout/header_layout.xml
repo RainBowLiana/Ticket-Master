@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Course: 22F-CST2335-021
+    Professor: Adewole Adewumi
+    Author: Kamelia Pezeshki
+    student# 040844200
+    File name: header_layout.xml
+    Date: 2022-12-06
+    Final Project- TicketMaster  -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+
+</LinearLayout>

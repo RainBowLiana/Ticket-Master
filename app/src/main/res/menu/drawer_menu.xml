@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Course: 22F-CST2335-021
+    Professor: Adewole Adewumi
+    Author: Kamelia Pezeshki
+    student# 040844200
+    File name: drawer_menu.xml
+    Date: 2022-12-06
+    Final Project-->
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="1"
+        android:title="@string/drawerHome"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/savedEvents"
+        android:orderInCategory="2"
+        android:icon="@drawable/heart"
+        android:title="@string/drawerSaved"/>
+
+    <item
+        android:id="@+id/lastSearchedEvent"
+        android:orderInCategory="3"
+        android:icon="@drawable/loupe"
+        android:title="@string/drawerSearched"/>
+
+</menu>

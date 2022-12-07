@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Course: 22F-CST2335-021
+ Professor: Adewole Adewumi
+ Author: Kamelia Pezeshki
+ student# 040844200
+ File name: fragment_home.xml
+ Date: 2022-12-06
+ Final Project
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="algonquin.cst2335.finalproject.Home">
+
+    <LinearLayout
+        android:id="@+id/home_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        tools:context=".MainActivity">
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/eventTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_border"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="10dp"
+            android:hint="@string/cityHint" />
+
+        <EditText
+            android:layout_margin="10dp"
+            android:id="@+id/radiusTextBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:paddingHorizontal="10dp"
+            android:background="@drawable/textview_border"
+            android:hint="@string/distanceHint" />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSearch" />
+
+
+        <ProgressBar
+            android:id="@+id/simpleProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:indeterminateTint="@color/black"
+            android:maxHeight="0dp"/>
+
+        <ListView
+            android:id="@+id/eventListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:layout_width="340dp"
+            android:layout_height="340dp"
+            android:src="@drawable/search"
+            android:id="@+id/searchPlaceholder" />
+
+    </LinearLayout>
+
+
+</FrameLayout>

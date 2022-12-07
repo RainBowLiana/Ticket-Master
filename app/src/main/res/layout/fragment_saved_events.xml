@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="algonquin.cst2335.finalproject.SavedEvents">
+
+
+    <LinearLayout
+        android:id="@+id/savedEvents_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        tools:context=".SavedEvents">
+
+        <ListView
+            android:id="@+id/eventListView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="5"/>
+
+
+<!--        <Button-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:id="@+id/btnCheckLastDel"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/check_last_deleted" />-->
+
+    </LinearLayout>
+
+</FrameLayout>

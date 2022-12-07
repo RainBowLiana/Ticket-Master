@@ -1,0 +1,31 @@
+<resources>
+    <!--Course: 22F-CST2335-021
+    Professor: Adewole Adewumi
+    Author: Kamelia Pezeshki
+    File name: string.xml
+    Date: 2022-12-06
+    Final Project-->
+    <string name="app_name">Final Project</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="btnSearch">"Find close by events"</string>
+    <string name="rowText">TextView</string>
+    <string name="drawerHome">Home</string>
+    <string name="drawerSaved">Saved events</string>
+    <string name="drawerSearched">History</string>
+    <string name="toolbarHome">Home</string>
+    <string name="toolbarSaved">Saved events</string>
+    <string name="toolbarSearched">Search History</string>
+    <string name="help">help</string>
+    <string name="cityHint">Search By City</string>
+    <string name="distanceHint">Search distance (radius) - km</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_task_2">Detail</string>
+    <string name="view_ticket">CHECK ON TICKET MASTER</string>
+    <string name="save_btn">SAVE</string>
+    <string name="help_title">Help</string>
+    <string name="help_close">CLOSE</string>
+    <string name="help_message">Click on event and you can all the details. Simply save any favorite event!</string>
+
+    <string name="check_last_deleted" translatable="false">Delete History</string>
+</resources>
